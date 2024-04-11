@@ -5,20 +5,12 @@ import re
 
 def home_page():
     st.title("AI-Based Inventory Optimization System For Restaurants")
+    
+    photo_url = Image.open('resources/display_image.png')
+    st.image(photo_url, width=600)
+    
     st.markdown("---")
-
-    #st.image("abc.jpg", use_column_width=True)
-    # absolute path to this file
-    FILE_DIR = os.path.dirname(os.path.abspath(__file__))
-    # absolute path to this file's root directory
-    PARENT_DIR = os.path.join(FILE_DIR, os.pardir)
-    # absolute path of directory_of_interest
-    dir_of_interest = os.path.join(PARENT_DIR, "resources") 
-    
-    IMAGE_DATA_PATH = os.path.join(dir_of_interest, "abc.jpg")
-    
-    photo_url = Image.open('resources/abc.jpg')
-    st.image(photo_url, width=300)   
+           
     
     st.write("Welcome to the AI-Based Inventory Optimization application! This application uses machine learning models to predict menu item demand based on various factors such as day of the week, holiday, and weather conditions.")
     
