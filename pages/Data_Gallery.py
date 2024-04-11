@@ -15,7 +15,7 @@ SALES_DATA_PATH = os.path.join(dir_of_interest, "Demand prediction dataset (Up3)
 INVENTORY_DATA_PATH = os.path.join(dir_of_interest, "Inventory Dataset.csv")
 
 df_s = pd.read_csv(SALES_DATA_PATH)
-df_i = pd.read_csv(INVENTORY_DATA_PATH)
+#df_i = pd.read_csv(INVENTORY_DATA_PATH)
 
 def main():
     
@@ -23,7 +23,7 @@ def main():
     st.write(df_s)
     
     st.title('Inventory Data')
-    st.write(df_i)
+    #st.write(df_i)
     
     
 if __name__ == "__main__":
