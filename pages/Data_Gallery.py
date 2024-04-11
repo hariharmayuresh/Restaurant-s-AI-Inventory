@@ -12,7 +12,7 @@ dir_of_interest = os.path.join(PARENT_DIR, "resources")
 
 SALES_DATA_PATH = os.path.join(dir_of_interest, "Demand prediction dataset (Up3).csv")
 
-INVENTORY_DATA_PATH = os.path.join(dir_of_interest, "Inventory Dataset.csv")
+INVENTORY_DATA_PATH = os.path.join(dir_of_interest, "Inventory dataset.csv")
 
 df_s = pd.read_csv(SALES_DATA_PATH)
 #df_i = pd.read_csv(INVENTORY_DATA_PATH)
