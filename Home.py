@@ -6,7 +6,7 @@ import re
 def home_page():
     st.title("AI-Based Inventory Optimization System For Restaurants")
     
-    photo_url = Image.open('resources/display_image.png')
+    photo_url = Image.open('resources/Inventory optimisation display.png')
     st.image(photo_url, width=600)
     
     st.markdown("---")
@@ -32,9 +32,10 @@ def home_page():
     st.markdown("---")
     
     st.header("Meet the Team")
-    st.write("**Project Lead:** John Doe")
-    st.write("**Data Scientist:** Jane Smith")
-    st.write("**Software Engineer:** Michael Johnson")
+    st.write("**Project Lead:** Manas Pandey")
+    st.write("**Data Scientist:** Mayuresh Harihar")
+    st.write("**Software Engineer:** Mangesh Raj")
+    st.write("**Software Engineer:** Sahil Khangar")
 
 # Main function to run the Streamlit app
 def main():
