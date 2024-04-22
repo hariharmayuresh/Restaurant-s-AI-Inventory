@@ -4,7 +4,7 @@ import os
 import re
 
 def home_page():
-    st.title("AI-Based Inventory Optimization System For Restaurants")
+    st.title("AI-Based Inventory Optimisation System For Restaurants")
     
     photo_url = Image.open('resources/Inventory optimisation display.png')
     st.image(photo_url, width=600)
@@ -12,7 +12,7 @@ def home_page():
     st.markdown("---")
            
     
-    st.write("Welcome to the AI-Based Inventory Optimization application! This application uses machine learning models to predict menu item demand based on various factors such as day of the week, holiday, and weather conditions.")
+    st.write("Welcome to the AI-Based Inventory Optimisation application! This application uses machine learning models to predict menu item demand based on various factors such as day of the week, holiday, and weather conditions.")
     
     st.write("To get started, use the sidebar to navigate to different sections of the application.")
     
@@ -20,7 +20,7 @@ def home_page():
     
     st.header("How it Works")
     st.write("1. **Predict Demand:** Enter the day of the week, holiday, and weather condition to predict the menu item that is likely to have high demand.")
-    st.write("2. **Optimize Inventory:** Based on the predicted demand, optimize your inventory to ensure sufficient stock of popular menu items and reduce wastage.")
+    st.write("2. **Optimize Inventory:** Based on the predicted demand, optimise your inventory to ensure sufficient stock of popular menu items and reduce wastage.")
     st.write("3. **Increase Efficiency:** By accurately predicting demand and managing inventory effectively, streamline operations and increase overall efficiency of your restaurant.")
     
     st.markdown("---")
